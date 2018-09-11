@@ -1,0 +1,106 @@
+body {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.nav {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  z-index: 1;
+}
+
+#nav-list {
+  text-decoration: underline;
+  display: inline-block;
+  float: right;
+}
+
+#logo {
+  background-image: url(images/img-tea-cozy-logo.png);
+  height: 50px;
+  padding-left: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+
+}
+
+.cover {
+  height: 700px;
+  width: 1200px;
+  background-image: url(images/img-mission-background.jpg);
+  display: block;
+  position: relative;
+  top: 69px;
+}
+
+#header {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+}
+
+.featured {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+.featured-sub {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.berry-img {
+  background-image: url(images/img-berryblitz.jpg);
+  background-size: contain;
+  height: 200px;
+  width: 300px;
+}
+
+.rum-img {
+  background-image: url(images/img-myrtle-ave.jpg);
+  background-size: contain;
+  height: 200px;
+  width: 300px;
+}
+.donuts-img {
+  background-image: url(images/img-donut.jpg);
+  background-size: contain;
+  height: 200px;
+  width: 300px;
+}
+.myrtle-img {
+  background-image: url(images/img-myrtle-ave.jpg);
+  background-size: contain;
+  height: 200px;
+  width: 300px;
+}
+.bedford-img {
+  background-image: url(images/img-bedford-bizarre.jpg);
+  background-size: contain;
+  height: 200px;
+  width: 300px;
+}
