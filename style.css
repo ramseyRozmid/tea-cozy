@@ -24,6 +24,9 @@ body {
   text-decoration: underline;
   display: inline-block;
   float: right;
+  color: seashell;
+  margin-right: 25px;
+
 }
 
 #logo {
