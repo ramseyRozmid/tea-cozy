@@ -20,7 +20,7 @@ body {
   z-index: 1;
 }
 
-#nav-list {
+#nav-list li {
   text-decoration: underline;
   display: inline-block;
   float: right;
@@ -50,9 +50,11 @@ body {
   font-size: 22px;
   color: seashell;
   background-color: black;
-  display: flex;
-  justify-content: center;
   width: 1200px;
+  position:relative;
+  text-align: center;
+  top: auto;
+  left: auto;
 }
 
 .featured {
