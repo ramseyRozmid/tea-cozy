@@ -6,6 +6,7 @@ body {
   opacity: 0.9;
 }
 
+/* parent div with styling for the entire nav bar */
 .nav {
   height: 69px;
   border-bottom: 1px solid seashell;
@@ -18,25 +19,30 @@ body {
   background-color: black;
   z-index: 1;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
+/* child div / list of clickable navigation items on the upper right hand side of the nav bar */
 #nav-list li {
   text-decoration: underline;
   display: inline-block;
   color: seashell;
   margin-right: 25px;
   float: right;
-  justify-content: flex-end;
-
+  justify-content: flex-end; /* places the nav list on the right of the nav */
 }
 
+/* child div / logo on the upper left of the nav bar */
 #logo {
-  height: 50px;
   background-size: contain;
   background-repeat: no-repeat;
-  justify-content: flex-start;
+  justify-content: flex-start; /* places the logo on the left of the nav */
+  margin-left: 10px;
+  margin-top: 9px;
+}
 
+#logo img {
+  height: 50px;
 }
 
 .cover {
