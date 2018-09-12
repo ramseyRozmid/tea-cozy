@@ -23,9 +23,9 @@ body {
 #nav-list li {
   text-decoration: underline;
   display: inline-block;
-  float: right;
   color: seashell;
   margin-right: 25px;
+  float: right;
 
 }
 
@@ -108,4 +108,46 @@ body {
   background-size: contain;
   height: 200px;
   width: 300px;
+}
+
+.locations-main {
+  background-image: url(images/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  position: relative;
+}
+
+#locations {
+  position:relative;
+  text-align: center;
+}
+
+#downtown {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  height:300;
+  width: 300;
+}
+
+#east-bayside {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  height:300;
+  width: 300;
+}
+
+#oakdale {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  height:300;
+  width: 300;
 }
