@@ -10,7 +10,6 @@ body {
   height: 69px;
   border-bottom: 1px solid seashell;
   width: 100%;
-  overflow: hidden;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   font-family: helvetica;
@@ -18,6 +17,8 @@ body {
   color: seashell;
   background-color: black;
   z-index: 1;
+  display: flex;
+  justify-content: space-around;
 }
 
 #nav-list li {
@@ -26,7 +27,7 @@ body {
   color: seashell;
   margin-right: 25px;
   float: right;
-  text-decoration: none;
+  justify-content: flex-end;
 
 }
 
@@ -36,6 +37,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   margin: auto;
+  justify-content: flex-start;
 
 }
 
