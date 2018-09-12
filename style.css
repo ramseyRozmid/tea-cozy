@@ -26,13 +26,13 @@ body {
   color: seashell;
   margin-right: 25px;
   float: right;
+  text-decoration: none;
 
 }
 
 #logo {
-  background-image: url(images/img-tea-cozy-logo.png);
   height: 50px;
-  padding-left: 10px;
+  margin-left: 10px;
   background-size: contain;
   background-repeat: no-repeat;
   margin: auto;
