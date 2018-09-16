@@ -26,10 +26,13 @@ body {
 #nav-list li {
   text-decoration: underline;
   display: inline-block;
-  color: seashell;
   margin-right: 25px;
   float: right;
   justify-content: flex-end; /* places the nav list on the right of the nav */
+}
+
+#nav-list a {
+  color: seashell;
 }
 
 /* child div / logo on the upper left of the nav bar */
@@ -49,8 +52,8 @@ body {
   height: 700px;
   width: 1200px;
   background-image: url(images/img-mission-background.jpg);
-  display: block;
-  position: relative;
+  display: flex;
+  align-items: center;
   top: 69px;
 }
 
@@ -66,13 +69,7 @@ body {
   left: auto;
 }
 
-.featured {
-  width: 1000px;
-  display: flex;
-  justify-content: center;
-}
-
-.featured-sub {
+.tea-of-the-month {
   width: 1000px;
   display: flex;
   justify-content: center;
