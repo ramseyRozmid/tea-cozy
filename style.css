@@ -83,32 +83,27 @@ body {
 }
 
 .berry-img {
-  background-image: url(images/img-berryblitz.jpg);
   background-size: contain;
   height: 200px;
   width: 300px;
 }
 
 .rum-img {
-  background-image: url(images/img-myrtle-ave.jpg);
   background-size: contain;
   height: 200px;
   width: 300px;
 }
 .donuts-img {
-  background-image: url(images/img-donut.jpg);
   background-size: contain;
   height: 200px;
   width: 300px;
 }
 .myrtle-img {
-  background-image: url(images/img-myrtle-ave.jpg);
   background-size: contain;
   height: 200px;
   width: 300px;
 }
 .bedford-img {
-  background-image: url(images/img-bedford-bizarre.jpg);
   background-size: contain;
   height: 200px;
   width: 300px;
