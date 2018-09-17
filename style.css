@@ -55,6 +55,8 @@ body {
   display: flex;
   align-items: center;
   top: 69px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #header {
@@ -74,6 +76,8 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .images {
@@ -93,16 +97,19 @@ body {
   height: 200px;
   width: 300px;
 }
+
 .donuts-img {
   background-size: contain;
   height: 200px;
   width: 300px;
 }
+
 .myrtle-img {
   background-size: contain;
   height: 200px;
   width: 300px;
 }
+
 .bedford-img {
   background-size: contain;
   height: 200px;
@@ -127,8 +134,8 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  height:300;
-  width: 300;
+  height:300px;
+  width: 300px;
 }
 
 #east-bayside {
@@ -137,8 +144,8 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  height:300;
-  width: 300;
+  height: 300px;
+  width: 300px;
 }
 
 #oakdale {
@@ -147,6 +154,6 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  height:300;
-  width: 300;
+  height:300px;
+  width: 300px;
 }
