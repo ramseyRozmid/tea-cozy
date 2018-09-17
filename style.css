@@ -4,6 +4,8 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* parent div with styling for the entire nav bar */
@@ -76,6 +78,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
@@ -84,6 +87,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  padding: 10px;
 }
 
 .berry-img {
@@ -121,11 +125,14 @@ body {
   height: 500px;
   width: 1200px;
   position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #locations {
   position:relative;
   text-align: center;
+  padding-top: 10px;
 }
 
 #downtown {
