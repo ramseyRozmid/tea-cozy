@@ -148,8 +148,6 @@ body {
 
 #downtown {
   background-color: black;
-  flex-direction: column;
-  justify-content: center;
   height:300px;
   width: 300px;
   padding-right: 10px;
@@ -158,8 +156,6 @@ body {
 
 #east-bayside {
   background-color: black;
-  flex-direction: column;
-  justify-content: center;
   height: 300px;
   width: 300px;
   padding-left: 10px;
@@ -168,8 +164,6 @@ body {
 
 #oakdale {
   background-color: black;
-  flex-direction: column;
-  justify-content: center;
   height:300px;
   width: 300px;
   padding-left: 10px;
