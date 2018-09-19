@@ -146,25 +146,42 @@ body {
   text-align: center;
 }
 
+#locations-three {
+  display: flex;
+  justify-content: space-around;
+}
+
 #downtown {
   background-color: black;
   height:300px;
   width: 300px;
-  padding-right: 10px;
-
+  text-align: center;
+  padding: auto 0;
 }
 
 #east-bayside {
   background-color: black;
   height: 300px;
   width: 300px;
-  padding-left: 10px;
-  padding-right: 10px;
+  text-align: center;
+  padding: auto 0;
 }
 
 #oakdale {
   background-color: black;
   height:300px;
   width: 300px;
-  padding-left: 10px;
+  text-align: center;
+  padding: auto 0;
+}
+
+.footer-center {
+  text-align: center;
+  height: 200px;
+  padding-top: 10px;
+}
+
+.footer-copyright {
+  text-align: left;
+  padding-left: 20px;
 }
